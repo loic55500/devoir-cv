@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body{
+    height: auto;
+    max-width: 1160px;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+header{
+    background-color: #782221;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
