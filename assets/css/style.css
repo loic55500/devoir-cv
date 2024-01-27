@@ -8,6 +8,12 @@ body{
     max-width: 1160px;
 
 }
+figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
 img{
     height: 200px;
     width: 200px;
@@ -16,10 +22,16 @@ img{
 }
 header{
     background-color: #782221;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+}
+nav{
+    background-color: black;
+    padding: 2%;
+}
+address{
+    display: flex;
+    justify-content: space-evenly;
+}
+#localisation{
+    width: 150px;
 }
