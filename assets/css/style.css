@@ -31,7 +31,12 @@ nav{
 address{
     display: flex;
     justify-content: space-evenly;
+
 }
 #localisation{
     width: 150px;
+}
+a{
+    text-decoration-line:none;
+    color: antiquewhite;
 }
