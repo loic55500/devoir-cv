@@ -18,7 +18,8 @@ img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0px 0px 10px black;
+    cursor: zoom-in;
 }
 header{
     background-color: #782221;
@@ -39,4 +40,7 @@ address{
 a{
     text-decoration-line:none;
     color: antiquewhite;
+}
+a:hover{
+text-decoration-line:underline
 }
