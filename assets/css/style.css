@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body{
+    height: auto;
+    max-width: 1160px;
+
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    cursor: zoom-in;
+}
+header{
+    background-color: #782221;
+    padding-top: 2%;
+}
+nav{
+    background-color: black;
+    padding: 2%;
+}
+address{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#localisation{
+    width: 150px;
+}
+a{
+    text-decoration-line:none;
+    color: antiquewhite;
+}
+a:hover{
+text-decoration-line:underline
+}
