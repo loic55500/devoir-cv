@@ -44,3 +44,20 @@ a{
 a:hover{
 text-decoration-line:underline
 }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.block1{
+    height: auto;
+    width: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #782221;
+    padding-top: 2%;
+}
+.block1__title{
+    background-color: #dbc2a4;
+
+}
