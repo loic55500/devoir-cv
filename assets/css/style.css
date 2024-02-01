@@ -39,7 +39,7 @@ address{
 }
 a{
     text-decoration-line:none;
-    color: antiquewhite;
+    color: white;
 }
 a:hover{
 text-decoration-line:underline
@@ -57,7 +57,22 @@ main{
     background-color: #782221;
     padding-top: 2%;
 }
-.block1__title{
+.block1__block1-title{
     background-color: #dbc2a4;
-
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.block1__block1-element{
+    margin-right: 5%;
+}
+#lorem{
+    text-indent: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+#list{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
 }
