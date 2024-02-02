@@ -51,7 +51,7 @@ main{
     border-color: black;
 }
 .block1{
-    height: auto;
+    height: 854.13px;
     width: 400px;
     margin-left: 0px;
     margin-right: 0px;
@@ -70,6 +70,7 @@ main{
     text-indent: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-left: 5%;
     color: white;
 }
 .block1__block1-element>ul{
@@ -92,4 +93,7 @@ padding-bottom: 2%;
 }
 .block2__block2-item{
     font-weight: bold;
+}
+.block2{
+    padding-top: 2%;
 }
