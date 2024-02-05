@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
     margin: auto;
-    padding: auto;
 }
 body{
     height: auto;
     max-width: 1160px;
 
 }
-figcaption{
+figure{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,8 +38,67 @@ address{
 }
 a{
     text-decoration-line:none;
-    color: antiquewhite;
+    color: white;
 }
 a:hover{
 text-decoration-line:underline
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-right-style: solid;
+    border-color: black;
+}
+.block1{
+    height: 872.13px;
+    width: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #782221;
+    padding-top: 2%;
+}
+.block1__block1-title{
+    background-color: #dbc2a4;
+    padding-bottom: 2%;
+    font-weight: bold;
+    text-indent: 5%;
+}
+.block1__block1-element{
+    margin-right: 5%;
+}
+#lorem{
+    text-indent: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    color: white;
+}
+.block1__block1-element>ul{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.block2__block2-element{
+    width: 700px;
+
+}
+.block2__block2-title{
+    background-color: #dbc2a4;
+    font-weight: bold;
+    font-size: large;
+}
+.block2__block2-title:hover{
+    border-left-color:#782221;
+    border-left-style: solid;
+}
+.block2__block2-element>p{
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.block2__block2-item{
+    font-weight: bold;
+}
+.block2{
+    padding-top: 2%;
 }
