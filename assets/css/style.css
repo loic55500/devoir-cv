@@ -102,11 +102,23 @@ padding-bottom: 2%;
 .block2{
     padding-top: 2%;
 }
-.social_network{
+.social_network_logo{
 height: 50px;
 width: 50px;
-
+}
+.social_network_logo:hover{
+    opacity: calc(50%);
 }
 footer{
     background-color: #782221;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+.social_network{
+    display: flex;
+    justify-content: center;
+}
+.social_network>a{
+  margin: 25px;
 }
