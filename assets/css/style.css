@@ -17,7 +17,7 @@ figure{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px 10px black;
     cursor: zoom-in;
 }
 header{
@@ -111,6 +111,7 @@ width: 50px;
 }
 footer{
     background-color: #782221;
+    padding-bottom: 2%;
     display: flex;
     justify-content: center;
     flex-direction: column;
