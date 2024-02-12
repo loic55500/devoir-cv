@@ -38,7 +38,7 @@ address{
 }
 address>a{
     text-decoration-line:none;
-    color: antiquewhite;
+    color: white;
 }
 address>a:hover{
 text-decoration-line:underline
@@ -48,7 +48,7 @@ main{
     flex-direction: row;
     justify-content: flex-start;
     border-right-style: solid;
-    border-color: black; 
+    border-color: black;
 }
 .block1{
     height: 872.13px;
