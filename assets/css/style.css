@@ -13,11 +13,11 @@ figure{
     flex-direction: column;
     padding-bottom: 2%;
 }
-img{
+#picture{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px 10px black;
     cursor: zoom-in;
 }
 header{
@@ -61,8 +61,10 @@ main{
 .block1__block1-title{
     background-color: #dbc2a4;
     padding-bottom: 2%;
-    font-weight: bold;
     text-indent: 5%;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .block1__block1-element{
     margin-right: 5%;
@@ -85,8 +87,10 @@ main{
 }
 .block2__block2-title{
     background-color: #dbc2a4;
-    font-weight: bold;
     font-size: large;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .block2__block2-title:hover{
     border-left-color:#782221;
@@ -102,3 +106,30 @@ padding-bottom: 2%;
 .block2{
     padding-top: 2%;
 }
+.social_network_logo{
+    height: 50px;
+    width: 50px;
+    }
+    .social_network_logo:hover{
+        opacity: calc(50%);
+    }
+    footer{
+        background-color: #782221;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        }
+    .social_network{
+        display: flex;
+        justify-content: center;
+    }
+    .social_network>a{
+      margin: 25px;
+    }
+    figure>h1 h2{
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style:normal
+    }
+
