@@ -31,7 +31,6 @@ nav{
 address{
     display: flex;
     justify-content: space-evenly;
-
 }
 #localisation{
     width: 150px;
@@ -39,6 +38,7 @@ address{
 a{
     text-decoration-line:none;
     color: white;
+    font-family:calc(Raleway)
 }
 a:hover{
 text-decoration-line:underline
