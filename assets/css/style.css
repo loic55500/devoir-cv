@@ -36,12 +36,12 @@ address{
 #localisation{
     width: 150px;
 }
-a{
+address>a{
     text-decoration-line:none;
     color: white;
     font-family:"Raleway";
 }
-a:hover{
+address>a:hover{
 text-decoration-line:underline
 }
 main{
@@ -136,4 +136,3 @@ font-family: "Raleway";
         font-weight: 900;
         font-style:normal
     }
-
